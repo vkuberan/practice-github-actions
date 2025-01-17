@@ -1,0 +1,13 @@
+name: My First Workflow
+on: push
+
+jobs:
+  my-first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello World"
+  my-second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Good bye World"
+
