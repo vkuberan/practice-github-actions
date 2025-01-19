@@ -1,4 +1,4 @@
-name: My NPM Package workflow
+name: 04 - My NPM Package workflow
 on: push
 
 jobs:
@@ -16,5 +16,4 @@ jobs:
           node-version: '20.x'
       - name: Install Dependencies
         run: npm ci
-        working-directory: 04-using-action-actions/react-app
-
+        working-directory: 04-using-actions/react-app
